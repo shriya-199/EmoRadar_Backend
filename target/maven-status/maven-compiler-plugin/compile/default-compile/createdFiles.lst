@@ -1,0 +1,6 @@
+com\emoradar\config\SecurityConfig.class
+com\emoradar\model\MoodEntry.class
+com\emoradar\repository\MoodEntryRepository.class
+com\emoradar\config\WebConfig.class
+com\emoradar\controller\MoodController.class
+com\emoradar\EmoradarBackendApplication.class
