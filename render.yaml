@@ -3,7 +3,7 @@ services:
     name: emoradar-backend
     runtime: docker
     buildCommand: "./mvnw clean package"
-    startCommand: "java -jar target/emoradar-backend-1.0.0.jar"
+    # startCommand: "java -jar target/emoradar-backend-1.0.0.jar"
     envVars:
       - key: SERVER_PORT
         value: 8080
