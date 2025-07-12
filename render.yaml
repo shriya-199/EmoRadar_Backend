@@ -1,7 +1,7 @@
 services:
   - type: web
     name: emoradar-backend
-    env: java
+    runtime: docker
     buildCommand: "./mvnw clean package"
     startCommand: "java -jar target/emoradar-backend-1.0.0.jar"
     envVars:
