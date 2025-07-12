@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: emoradar-backend
+    env: java
+    buildCommand: "./mvnw clean package"
+    startCommand: "java -jar target/emoradar-backend-1.0.0.jar"
+    envVars:
+      - key: SERVER_PORT
+        value: 8080
